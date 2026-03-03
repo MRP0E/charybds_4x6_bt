@@ -4,15 +4,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # - name: prospector
-    #   url-base: https://github.com/t-ogura
+    - name: prospector
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    # - name: prospector-zmk-module
-    #   remote: prospector
-    #   revision: release/v2.2.0
-    #   path: modules/prospector-zmk-module
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: release/v2.2.0
+      path: modules/prospector-zmk-module
   self:
     path: config
