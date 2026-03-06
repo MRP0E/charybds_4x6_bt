@@ -46,7 +46,5 @@ config BT_MAX_CONN
 config BT_MAX_PAIRED
   default 7
 
-config CONFIG_PROSPECTOR_STATUS_SCREEN_OPERATOR
-  default y 
 
 endif
