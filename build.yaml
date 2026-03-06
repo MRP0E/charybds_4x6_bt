@@ -32,6 +32,10 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: charybdis_left_with_studio
 
+
+  - board: nice_nano@2//zmk
+    shield: charybdis_left
+
   - board: nice_nano@2//zmk
     shield: charybdis_right
 
